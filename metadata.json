@@ -1,0 +1,6 @@
+{
+  "name": "Game Data Analytics Pitch",
+  "description": "Agentic Game Data Analytics Platform slide deck presentation",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
