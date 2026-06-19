@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Atria · Agentic Analytics Slides Presentation
 
-# Run and deploy your AI Studio app
+This repository contains the interactive slideshow presentation for **Atria · Agentic Analytics Platform**.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/11575835-88ba-45a5-a242-90f49d5c72b0
+The application is built using React 19, Vite, Tailwind CSS v4, and Framer Motion.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js (v18+)
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open your browser and navigate to `http://localhost:3000` to view the slides.
+
+## Key Features
+
+- **17 Interactive Slides**: Faithfully recreates the original presentation details.
+- **Responsive Animations**: Employs Framer Motion for premium transitions and loops.
+- **Dual-Theme Support**: Fully optimized Light and Dark modes.
+- **Bilingual Support**: Toggle between English and Vietnamese seamlessly.
