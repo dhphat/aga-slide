@@ -81,18 +81,7 @@ export function Slide1_Hero() {
           {st.desc}
         </motion.p>
 
-        {/* Metadata section */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="grid grid-cols-2 gap-x-8 gap-y-2 text-xs font-mono text-zinc-500 dark:text-zinc-400 mb-8 border-l-2 border-cyber-purple/30 pl-4 w-full"
-        >
-          <div>{st.version}</div>
-          <div>{st.status}</div>
-          <div>{st.date}</div>
-          <div>{st.audience}</div>
-        </motion.div>
+
 
         <motion.button
           initial={{ opacity: 0, y: 10 }}
